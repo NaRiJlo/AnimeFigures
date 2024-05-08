@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>AnimeFigures</title>
+        <link rel="stylesheet" type="text/css" href="style/figures.css">
+    </header>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="img/1-1.png" height="100px" width="100px"> 
+            <h1>AnimeFigures</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="otziv.html">Отзыв</a></li>
+                <li><button id="cartbtn" onclick="view()">Корзина</button></li>
+            </ul>
+        </div>
+    </div>
+    <div id="cart">
+        <h3>Корзина</h3>
+        <ul id="cart-list"></ul>
+        <p id="total-price">Общая стоимость: 0₽</p>
+        <button id="checkout-button">Оформить заказ</button>
+        <button id="clear-cart-button">Очистить корзину</button>
+    </div>
+    
+    <div id="container">
+        <div id="content">
+            <div id="products">
+                <div class="product" data-id="1">
+                    <a href="tovars/tovar1.html">
+                        <div class="image">
+                            <img src="img/1.webp">
+                        </div>
+                        <div class="info">
+                            <h3>One Punch Man — Senritsu no Tatsumaki — 1/7 (Bell Fine)</h3>
+                            <p>Фигурка</p>
+                            <h3>Цена</h3>
+                            <p>15030 ₽</p>
+                        </div>
+                    </a>
+                  <button data-id="1">В корзину</button>
+                </div>
+                <div class="product" data-id="2">
+                    <a href="tovars/tovar2.html">
+                        <div class="image">
+                            <img src="img/2.webp">
+                        </div>
+                        <div class="info">
+                            <h3>Bocchi the Rock! — Ijichi Nijika — Nendoroid #2242</h3>
+                            <p>Фигурка</p>
+                            <h3>Цена</h3>
+                            <p>8700 ₽</p>
+                        </div>
+                    </a>
+                  <button data-id="2">В корзину</button>
+                </div>
+                <div class="product" data-id="3">
+                    <a href="tovars/tovar3.html">
+                        <div class="image">
+                            <img src="img/3.webp">
+                        </div>
+                        <div class="info">
+                            <h3>ТShin Evangelion Gekijouban:|| — Ayanami Rei — 1/7 — Plugsuit Ver., Shin Gekijouban Color (Bell Fine)</h3>
+                            <p>Фигурка</p>
+                            <h3>Цена</h3>
+                            <p>9900 ₽</p>
+                        </div>
+                    </a>
+                    <button data-id="3">В корзину</button>
+                </div>
+                <div class="product" data-id="4">
+                    <a href="tovars/tovar4.html">
+                        <div class="image">
+                            <img src="img/4.webp">
+                        </div>
+                        <div class="info">
+                            <h3>Spy × Family — Anya Forger — Yor Forger — 1/7</h3>
+                            <p>Фигурка</p>
+                            <h3>Цена</h3>
+                            <p>17775 ₽</p>
+                        </div>
+                    </a>
+                    <button data-id="4">В корзину</button>
+                </div>
+                <div class="product" data-id="5">
+                    <a href="tovars/tovar5.html">
+                        <div class="image">
+                            <img src="img/5.webp">
+                        </div>
+                        <div class="info">
+                            <h3>Lycoris Recoil — Nishikigi Chisato — 1/7</h3>
+                            <p>Фигурка</p>
+                            <h3>Цена</h3>
+                            <p>14940 ₽</p>
+                        </div>
+                    </a>
+                    <button data-id="5">В корзину</button>
+                </div>
+                <div class="product" data-id="6">
+                    <a href="tovars/tovar6.html">
+                        <div class="image">
+                            <img src="img/6.webp">
+                        </div>
+                        <div class="info">
+                            <h3>Bakemonogatari — Kanbaru Suruga — 1/8</h3>
+                            <p>Фигурка</p>
+                            <h3>Цена</h3>
+                            <p>22230 ₽</p>
+                        </div>
+                    </a>
+                    <button data-id="6">В корзину</button>
+                </div>
+            </div>
+
+    </div>
+    <div id="footer">
+        No Copyright
+    </div>
+</body>
+    <script type="text/javascript" src="js/tovar.js"></script>
+</html>

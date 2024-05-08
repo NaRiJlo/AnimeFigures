@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>AnimeFigures</title>
+        <link rel="stylesheet" type="text/css" href="stylemini/tovars.css">
+    </header>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="imgtovars/1-1.png" height="100px" width="100px"> 
+            <h1>AnimeFigures</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="../about.html">О нас</a></li>
+                <li><a href="../otziv.html">Отзыв</a></li>
+                <li><button id="cartbtn" onclick="view()">Корзина</button></li>
+                <button id="back"><a href="../figures.html">Назад</a></button>
+            </ul>
+        </div>
+    </div>
+    <div id="cart">
+        <h3>Корзина</h3>
+        <ul id="cart-list"></ul>
+        <p id="total-price">Общая стоимость: 0₽</p>
+        <button id="checkout-button">Оформить заказ</button>
+        <button id="clear-cart-button">Очистить корзину</button>
+    </div>
+    
+    <div id="container">
+        <div id="content">
+            <div id="products">
+                </div>
+                <div class="product" data-id="1">
+                    <div class="tovar">
+                        <div class="image">
+                            <img src="imgtovars/2.webp">
+                        </div>
+                        <div class="info">
+                            <h3>Bocchi the Rock! — Ijichi Nijika — Nendoroid #2242</h3>
+                            <p>Фигурка</p>
+                            <h3>Цена</h3>
+                            <p>8700 ₽</p>
+                        </div>
+                    </div>
+                  <button data-id="1">В корзину</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        No Copyright
+    </div>
+</body>
+    <script type="text/javascript" src="js/tovar.js"></script>
+</html>
